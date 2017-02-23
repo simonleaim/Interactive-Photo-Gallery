@@ -20,7 +20,7 @@ input {
 }
 
 
-a { float:left; width:200px; height:200px; margin: 0 15px 15px 0; }
+a { width:200px; height:200px; margin: 0 15px 15px 0; }
 
 img {
     margin: 4%;
