@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 5%;
+}
+input {
+    display: block;
+    width: 40%;
+    margin: 4% auto;
+    border: 5px solid #E3E3E3;
+    border-radius: 10px;
+    padding: 2% 3%;
+    font-size: 1.9em;
+}
+
+.gallery {
+    text-align: center;
+}
+
+
+a { float:left; width:200px; height:200px; margin: 0 15px 15px 0; }
+
+img {
+    margin: 4%;
+    
+}
