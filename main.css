@@ -5,24 +5,36 @@
 .container {
     padding: 5%;
 }
+
 input {
     display: block;
-    width: 40%;
+    width: 200px;
     margin: 4% auto;
-    border: 5px solid #E3E3E3;
+    border: 2px solid #E3E3E3;
     border-radius: 10px;
     padding: 2% 3%;
-    font-size: 1.9em;
+    font-size: .9em;
 }
 
 .gallery {
+    max-width: 1164px;
+    margin: 0 auto;
     text-align: center;
 }
 
-
-a { width:200px; height:200px; margin: 0 15px 15px 0; }
-
 img {
-    margin: 4%;
+    padding: 15px;
+    
+}
+
+
+@media (min-width : 768px) {
+    .container {
+        padding: 4%;
+    }
+    
+    input {
+        width: 50%;
+    }
     
 }
