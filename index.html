@@ -14,10 +14,9 @@
 
 <body>
 <div class="container">
-  <input type=search placeholder="Search(16pt)">
+  <input type="text" placeholder="Search(16pt)" id="search" name="search" data-list=".gallery">
     
   <div class="gallery">
-      <div class='row'></div>
       <!--Img 01-->
       <a href="img/01.jpg" title="Hay Bales" data-lightbox="showcase" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields."><img src="img/thumbnails/01.jpg"></a>
       <!--Img 02-->
@@ -45,7 +44,9 @@
   </div>
     
   <script src="js/jquery-3.1.1.min.js"></script>
-  <script src="js/lightbox/js/lightbox.min.js"></script>
+
+    <script src="js/hideseek/jquery.hideseek.min.js"></script>
+      <script src="js/lightbox/js/lightbox.min.js"></script>
   <script src="js/main.js"></script>
 </div>  
 </body>

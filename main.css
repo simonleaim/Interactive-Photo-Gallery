@@ -9,32 +9,40 @@
 input {
     display: block;
     width: 200px;
+    max-width: 400px;
     margin: 4% auto;
     border: 2px solid #E3E3E3;
-    border-radius: 10px;
+    border-radius: 7px;
     padding: 2% 3%;
     font-size: .9em;
 }
 
 .gallery {
-    max-width: 1164px;
+    max-width: 942px;
     margin: 0 auto;
     text-align: center;
 }
 
-img {
-    padding: 15px;
-    
+ .gallery img {
+    padding: 15px;  
 }
-
 
 @media (min-width : 768px) {
     .container {
-        padding: 4%;
+        padding: 1% 4%;
     }
     
     input {
         width: 50%;
     }
+    .gallery {
+        text-align: left;
+    }
     
+}
+
+@media (min-width : 1024px) {
+    input {
+        padding: 1%;
+    }
 }
